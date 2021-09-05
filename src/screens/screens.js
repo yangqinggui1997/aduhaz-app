@@ -1,0 +1,81 @@
+const Screens = {
+  Splash: 'Splash',
+
+  Menu: 'Menu',
+  Home: 'Home',
+  HomeVideos: 'HomeVideos',
+  HomeStoryPictures: 'HomeStoryPictures',
+  HomeStoryVideos: 'HomeStoryVideos',
+  ManageListings: 'ManageListings',
+  ManageVideo: 'ManageVideo',
+  FavoriteList: 'FavoriteList',
+  FavoriteListings: 'FavoriteListings',
+  FavoriteVideo: 'FavoriteVideo',
+  FavoriteStoryImage: 'FavoriteStoryImage',
+  FavoriteStoryVideo: 'FavoriteStoryVideo',
+  ManageStoryVideo: 'ManageStoryVideo',
+  ManageStoryImage: 'ManageStoryImage',
+  Friend: 'Friend',
+  VideoList: 'VideoList',
+  Recharge: 'Recharge',
+  PushPost: 'PushPost',
+  SavedList: 'SavedList',
+  PostsByCategory: 'PostsByCategory',
+
+  Login: 'Login',
+  ProfileEdit: 'ProfileEdit',
+  Profile: 'Profile',
+  Register: 'Register',
+  ForgotPassword: 'ForgotPassword',
+
+  Dialog: 'Dialog',
+  BottomSheet: 'BottomSheet',
+  PageWebview: 'PageWebview',
+  FullImagesView: 'FullImagesView',
+
+  PostDetail: 'PostDetail',
+  ChatDetail: 'ChatDetail',
+  Rating: 'Rating',
+  RatingDetail: 'RatingDetail',
+  Report: 'Report',
+  ProfileSeller: 'ProfileSeller',
+
+  VideoDetail: 'VideoDetail',
+
+  Search: 'Search',
+  SearchHistory: 'SearchHistory',
+  SearchResult: 'SearchResult',
+  Notification: 'Notification',
+  ChatList: 'ChatList',
+  AccountSetting: 'AccountSetting',
+  AccountSettingItem: 'AccountSettingItem',
+
+  CreateVideoPost: 'CreateVideoPost',
+  CreateImagePost: 'CreateImagePost',
+  PreviewPost: 'PreviewPost',
+
+  CreateImageStory: 'CreateImageStory',
+  CreateVideoStory: 'CreateVideoStory',
+  MusicStore: 'MusicStore',
+  ChangeAccountLogin: 'ChangeAccountLogin',
+  TrimmerView: 'TrimmerView',
+  InputVideoStoryDescription: 'InputVideoStoryDescription',
+  MusicTopics: 'MusicTopics',
+  MusicList: 'MusicList',
+  SearchMusic: 'SearchMusic',
+  InputImagesStoryDescription: 'InputImagesStoryDescription',
+  ReportProblem: 'ReportProblem',
+  Feedback: 'Feedback',
+
+  ViewImage: 'ViewImage',
+
+  PreviewEditPost: 'PreviewEditPost',
+  EditImagePost: 'EditImagePost',
+  EditVideoPost: 'EditVideoPost',
+  ManagerDevices: 'ManagerDevices',
+  VerifyTwoSteps: 'VerifyTwoSteps',
+
+  VideoPlayerScreen: 'VideoPlayerScreen',
+};
+
+export default Screens;

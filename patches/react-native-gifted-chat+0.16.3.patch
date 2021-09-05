@@ -1,0 +1,49 @@
+diff --git a/node_modules/react-native-gifted-chat/lib/Bubble.js b/node_modules/react-native-gifted-chat/lib/Bubble.js
+index 63bde0b..5e3812f 100644
+--- a/node_modules/react-native-gifted-chat/lib/Bubble.js
++++ b/node_modules/react-native-gifted-chat/lib/Bubble.js
+@@ -154,6 +154,26 @@ export default class Bubble extends React.Component {
+         }
+         return null;
+     }
++    renderMessageLocation() {
++        if (this.props.currentMessage && this.props.currentMessage.location) {
++            const { containerStyle, wrapperStyle, optionTitles, ...messageLocationProps } = this.props;
++            if (this.props.renderMessageLocation) {
++                return this.props.renderMessageLocation(messageLocationProps);
++            }
++            return null;
++        }
++        return null;
++    }
++    renderMessageDocument() {
++        if (this.props.currentMessage && this.props.currentMessage.document) {
++            const { containerStyle, wrapperStyle, optionTitles, ...messageDocumentProps } = this.props;
++            if (this.props.renderMessageDocument) {
++                return this.props.renderMessageDocument(messageDocumentProps);
++            }
++            return null;
++        }
++        return null;
++    }
+     renderMessageText() {
+         if (this.props.currentMessage && this.props.currentMessage.text) {
+             const { containerStyle, wrapperStyle, optionTitles, ...messageTextProps } = this.props;
+@@ -247,6 +267,8 @@ export default class Bubble extends React.Component {
+     }
+     renderBubbleContent() {
+         return this.props.isCustomViewBottom ? (<View>
++        {this.renderMessageLocation()}
++        {this.renderMessageDocument()}
+         {this.renderMessageImage()}
+         {this.renderMessageVideo()}
+         {this.renderMessageAudio()}
+@@ -254,6 +276,8 @@ export default class Bubble extends React.Component {
+         {this.renderCustomView()}
+       </View>) : (<View>
+         {this.renderCustomView()}
++        {this.renderMessageLocation()}
++        {this.renderMessageDocument()}
+         {this.renderMessageImage()}
+         {this.renderMessageVideo()}
+         {this.renderMessageAudio()}

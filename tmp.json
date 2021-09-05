@@ -1,0 +1,33 @@
+{
+    "address": undefined,
+    "categories": undefined,
+    "categoryId": undefined,
+    "categoryName": undefined,
+    "comments": undefined,
+    "content": undefined,
+    "createdAt": undefined,
+    "createdBy": {
+        "follow_status": false,
+        "icon": "https://api.aduhaz.com/datafiles/member/117/1625561172_60e41854007ff60e4185400801_64B355F5-7C96-4F08-8E75-B977C1208AE7.jpg",
+        "id": 117,
+        "lastOnline": null,
+        "name": " Bình Tân"
+    },
+    "icon": "https://api.aduhaz.com/datafiles/member/117/1628437100_610ffa6c2a26a610ffa6c2a26d_610ffa6c2a26e.jpg",
+    "id": 73050,
+    "images": undefined,
+    "like": undefined,
+    "likeStatus": 0,
+    "phoneNumber": undefined,
+    "postBy": undefined,
+    "postDate": 1628437100,
+    "postTitle": "Khu đô thị đáng sống bậc nhất Bình Dương",
+    "price": 0,
+    "properties": undefined,
+    "province": "Bình Dương",
+    "saveStatus": 0,
+    "sellBuy": undefined,
+    "shareLink": undefined,
+    "type": "post",
+    "view": undefined
+}

@@ -1,0 +1,1025 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092C10CCF7884ACA92653271 /* Truculenta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77C614183380493B9054988C /* Truculenta-Regular.ttf */; };
+		0992304CE5C94C5C901F35A5 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB7E70981522474C80FDAA6A /* OpenSans-SemiBold.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2764D136BC8A44B38AFB6538 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A9745A5F56246629B0594AD /* OpenSans-Italic.ttf */; };
+		2CD7EC2EDB2C4C7497306AAD /* Bangers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6D2177DC4924A9D919235CD /* Bangers-Regular.ttf */; };
+		2E267061E0DF465BB2992425 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B8C510FB7D249A690F99005 /* DancingScript-Regular.ttf */; };
+		2EA7A96DCE6B4C269C21F01F /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E45C4DE70D594C0AA90250C7 /* AmaticSC-Bold.ttf */; };
+		34FD6D51AD03440EB1191EFA /* CreamyChocolate.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F167A4B9F14D2E911CC612 /* CreamyChocolate.ttf */; };
+		3D69736CF291414EAEFEA2F8 /* LittleMiracles.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FB76BA6CE3E46B894FE36E6 /* LittleMiracles.ttf */; };
+		3EB72BB66D02453F87F92E03 /* Mali-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B36942582D4848189690FC30 /* Mali-Regular.ttf */; };
+		3EE314E7A1994E7BB72263F5 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2933F783E26450D8F09B588 /* OpenSans-SemiBoldItalic.ttf */; };
+		5986DDC749194C22A1B333BC /* Arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A714FA9C7A774B29A28E5335 /* Arial.ttf */; };
+		621AF176EFDE4069B61F6C05 /* ArimaMadurai-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 359CAF44D2744EFEA4340155 /* ArimaMadurai-ExtraBold.ttf */; };
+		6296BBC3C0CA4FA0B3A3623E /* Rondal-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAA96574763E4B138A49366D /* Rondal-Regular.otf */; };
+		6D228059160A459E83D50B24 /* YanoneKaffeesatz-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BE42264169541B9A217D466 /* YanoneKaffeesatz-Regular.ttf */; };
+		71367E46D45040098878DCA6 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 534119AF8DC94422BEBE9B64 /* OpenSans-ExtraBold.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9A0C4C2BB5DC4AA19AD280FB /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98BC569245F54EF0A52AF4C0 /* Lobster-Regular.ttf */; };
+		9C49CAB67B8340059BB856B4 /* Heylie.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA24F5A43A0C447CB68BD53A /* Heylie.ttf */; };
+		9EFE757977034F909DE63AB2 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9B2AB93E38B454C95E5D867 /* OpenSans-Bold.ttf */; };
+		B6645EEF1FB4426B9610CA2B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B68BF75D07B4442796ACBE1F /* OpenSans-BoldItalic.ttf */; };
+		B67D1FA32605C33A00610248 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67D1FA22605C33A00610248 /* File.swift */; };
+		B6A7264B2605C73F00B142CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6A7264A2605C73E00B142CC /* GoogleService-Info.plist */; };
+		C96CB03B76AD4B019F54F921 /* TmesNewRoman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BCB994B828C46C78C1D13FA /* TmesNewRoman.ttf */; };
+		CD2E26B72664E786004699EF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2E26B62664E786004699EF /* CoreMedia.framework */; };
+		CD2E26B92664E78F004699EF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2E26B82664E78F004699EF /* CoreVideo.framework */; };
+		CD2E26BB2664E799004699EF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2E26BA2664E799004699EF /* OpenGLES.framework */; };
+		CD2E26BD2664E7A2004699EF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2E26BC2664E7A2004699EF /* AVFoundation.framework */; };
+		CD2E26BF2664E7AA004699EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2E26BE2664E7AA004699EF /* QuartzCore.framework */; };
+		CD2E26C12664E7B2004699EF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2E26C02664E7B2004699EF /* MobileCoreServices.framework */; };
+		CDC4CE182664FD7D00B6E53C /* RNVideoProcessingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE112664FD7C00B6E53C /* RNVideoProcessingManager.swift */; };
+		CDC4CE192664FD7D00B6E53C /* RNVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE122664FD7C00B6E53C /* RNVideoPlayer.swift */; };
+		CDC4CE1A2664FD7D00B6E53C /* RNVideoProcessingBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE142664FD7D00B6E53C /* RNVideoProcessingBridge.m */; };
+		CDC4CE1B2664FD7D00B6E53C /* VideoProcessingGPUFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE162664FD7D00B6E53C /* VideoProcessingGPUFilters.swift */; };
+		CDC4CE222664FD9D00B6E53C /* RNTrimmerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE1D2664FD9D00B6E53C /* RNTrimmerViewManager.swift */; };
+		CDC4CE232664FD9D00B6E53C /* RNTrimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE1F2664FD9D00B6E53C /* RNTrimmerView.swift */; };
+		CDC4CE242664FD9D00B6E53C /* RNTrimmerViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE202664FD9D00B6E53C /* RNTrimmerViewBridge.m */; };
+		CDC4CE2D2664FDB400B6E53C /* ICGThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE282664FDB400B6E53C /* ICGThumbView.m */; };
+		CDC4CE2E2664FDB400B6E53C /* ICGVideoTrimmerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE292664FDB400B6E53C /* ICGVideoTrimmerView.m */; };
+		CDC4CE2F2664FDB400B6E53C /* ICGRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE2C2664FDB400B6E53C /* ICGRulerView.m */; };
+		CDC4CE372664FDCA00B6E53C /* RNVideoTrimmerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE312664FDCA00B6E53C /* RNVideoTrimmerBridge.m */; };
+		CDC4CE382664FDCA00B6E53C /* RNVideoTrimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE332664FDCA00B6E53C /* RNVideoTrimmer.swift */; };
+		CDC4CE392664FDCA00B6E53C /* AVUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE352664FDCA00B6E53C /* AVUtilities.swift */; };
+		CDC4CE3A2664FDCA00B6E53C /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC4CE362664FDCA00B6E53C /* SDAVAssetExportSession.m */; };
+		CDC4CE482664FE0E00B6E53C /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC4CE442664FDD500B6E53C /* GPUImage.framework */; };
+		CDC4CE492664FE3900B6E53C /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDC4CE442664FDD500B6E53C /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D26866BE6B1947699A68E856 /* Charm-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C519F2C1DB04D038CC6DE95 /* Charm-Regular.ttf */; };
+		D38EAE70A374444DA8A1D46F /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D07C6C72376D4257AAD895FA /* OpenSans-Regular.ttf */; };
+		D5B7F51F72AF482BB72BF684 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1602487527364BA1BFD3BD6D /* OpenSans-LightItalic.ttf */; };
+		D81E76E737C54DE59A6D0B11 /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAE463E052FF4184B667817C /* PlayfairDisplay-Italic.ttf */; };
+		D936AC397AED4503BC35292E /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 882E31C22DF94A5FA6A1D2F7 /* Pacifico-Regular.ttf */; };
+		D9A15B45BB664CC399236ED0 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D85BBFA0526D489983DADE9A /* OpenSans-Light.ttf */; };
+		F9CAB0504918E05F484E97ED /* libPods-aduhaz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 596C4120957A4789D1342701 /* libPods-aduhaz.a */; };
+		FA814E4D113E44DA83D630B1 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C3422FB9AC04AE0849169E9 /* OpenSans-ExtraBoldItalic.ttf */; };
+		FE2FA2F7913A4065B0CC8E03 /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E14CF6F8694C91B062AEDC /* AmaticSC-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC4CE412664FDD500B6E53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC4CE3B2664FDD400B6E53C /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		CDC4CE432664FDD500B6E53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC4CE3B2664FDD400B6E53C /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD2E26C42664E7BC004699EF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CDC4CE492664FE3900B6E53C /* GPUImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* aduhazTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aduhazTests.m; sourceTree = "<group>"; };
+		0C23003B4E36410CB45B4AC7 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		132F5BE2716542D8B6936CFF /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* aduhaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aduhaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = aduhaz/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = aduhaz/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = aduhaz/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = aduhaz/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = aduhaz/main.m; sourceTree = "<group>"; };
+		1602487527364BA1BFD3BD6D /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../src/assets/fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		1BE42264169541B9A217D466 /* YanoneKaffeesatz-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "YanoneKaffeesatz-Regular.ttf"; path = "../src/assets/fonts/YanoneKaffeesatz-Regular.ttf"; sourceTree = "<group>"; };
+		1D5D67CF4B6840D280F9C3D9 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		20F167A4B9F14D2E911CC612 /* CreamyChocolate.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = CreamyChocolate.ttf; path = ../src/assets/fonts/CreamyChocolate.ttf; sourceTree = "<group>"; };
+		280C910DF4704C7DAE6F4B5F /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		2BCB994B828C46C78C1D13FA /* TmesNewRoman.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = TmesNewRoman.ttf; path = ../src/assets/fonts/TmesNewRoman.ttf; sourceTree = "<group>"; };
+		359CAF44D2744EFEA4340155 /* ArimaMadurai-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ArimaMadurai-ExtraBold.ttf"; path = "../src/assets/fonts/ArimaMadurai-ExtraBold.ttf"; sourceTree = "<group>"; };
+		480160701F094C3DBA7A0F07 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		534119AF8DC94422BEBE9B64 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		58AE50281C5F181920BA3114 /* Pods-aduhaz.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aduhaz.staging.xcconfig"; path = "Target Support Files/Pods-aduhaz/Pods-aduhaz.staging.xcconfig"; sourceTree = "<group>"; };
+		596C4120957A4789D1342701 /* libPods-aduhaz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aduhaz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		732286B24CDE4D94B697C6A1 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		77C614183380493B9054988C /* Truculenta-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Truculenta-Regular.ttf"; path = "../src/assets/fonts/Truculenta-Regular.ttf"; sourceTree = "<group>"; };
+		7B8C510FB7D249A690F99005 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Regular.ttf"; path = "../src/assets/fonts/DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		819D7A292A274568B5DFF652 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = aduhaz/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87C842FCAA164126929B6D2E /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		882E31C22DF94A5FA6A1D2F7 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Pacifico-Regular.ttf"; path = "../src/assets/fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		8C519F2C1DB04D038CC6DE95 /* Charm-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Charm-Regular.ttf"; path = "../src/assets/fonts/Charm-Regular.ttf"; sourceTree = "<group>"; };
+		9238C585B0B74C248D657DB7 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		98BC569245F54EF0A52AF4C0 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lobster-Regular.ttf"; path = "../src/assets/fonts/Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		9A9745A5F56246629B0594AD /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../src/assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		9C3422FB9AC04AE0849169E9 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		9FB76BA6CE3E46B894FE36E6 /* LittleMiracles.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = LittleMiracles.ttf; path = ../src/assets/fonts/LittleMiracles.ttf; sourceTree = "<group>"; };
+		A0DBCCC3125D55E9B82D8989 /* Pods-aduhaz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aduhaz.release.xcconfig"; path = "Target Support Files/Pods-aduhaz/Pods-aduhaz.release.xcconfig"; sourceTree = "<group>"; };
+		A198B1B521B14EE2B5B8D07B /* Playfair-Display-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Playfair-Display-Italic.ttf"; path = "../src/assets/fonts/Playfair-Display-Italic.ttf"; sourceTree = "<group>"; };
+		A714FA9C7A774B29A28E5335 /* Arial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Arial.ttf; path = ../src/assets/fonts/Arial.ttf; sourceTree = "<group>"; };
+		A97209F72AEE45809B724566 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		A9C1E76A51264AD29ED5D0F1 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		AA24F5A43A0C447CB68BD53A /* Heylie.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Heylie.ttf; path = ../src/assets/fonts/Heylie.ttf; sourceTree = "<group>"; };
+		AAE463E052FF4184B667817C /* PlayfairDisplay-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-Italic.ttf"; path = "../src/assets/fonts/PlayfairDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		AFDA327F923D44EAB7182C46 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		B2933F783E26450D8F09B588 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B36942582D4848189690FC30 /* Mali-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mali-Regular.ttf"; path = "../src/assets/fonts/Mali-Regular.ttf"; sourceTree = "<group>"; };
+		B65BEF0CB2C04F78B688E35D /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		B67D1F9E2605C2C400610248 /* aduhaz.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = aduhaz.entitlements; path = aduhaz/aduhaz.entitlements; sourceTree = "<group>"; };
+		B67D1FA12605C33A00610248 /* aduhaz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aduhaz-Bridging-Header.h"; sourceTree = "<group>"; };
+		B67D1FA22605C33A00610248 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		B68BF75D07B4442796ACBE1F /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B6A7264A2605C73E00B142CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB7E70981522474C80FDAA6A /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		CAA96574763E4B138A49366D /* Rondal-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rondal-Regular.otf"; path = "../src/assets/fonts/Rondal-Regular.otf"; sourceTree = "<group>"; };
+		CD2E26B62664E786004699EF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CD2E26B82664E78F004699EF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CD2E26BA2664E799004699EF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CD2E26BC2664E7A2004699EF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CD2E26BE2664E7AA004699EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CD2E26C02664E7B2004699EF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CDC4CE112664FD7C00B6E53C /* RNVideoProcessingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNVideoProcessingManager.swift; path = "../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoProcessingManager.swift"; sourceTree = "<group>"; };
+		CDC4CE122664FD7C00B6E53C /* RNVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNVideoPlayer.swift; path = "../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoPlayer.swift"; sourceTree = "<group>"; };
+		CDC4CE132664FD7D00B6E53C /* RCTSwiftBridgeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTSwiftBridgeModule.h; path = "../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RCTSwiftBridgeModule.h"; sourceTree = "<group>"; };
+		CDC4CE142664FD7D00B6E53C /* RNVideoProcessingBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNVideoProcessingBridge.m; path = "../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoProcessingBridge.m"; sourceTree = "<group>"; };
+		CDC4CE152664FD7D00B6E53C /* RNVideoProcessing-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RNVideoProcessing-Bridging-Header.h"; path = "../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoProcessing-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDC4CE162664FD7D00B6E53C /* VideoProcessingGPUFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoProcessingGPUFilters.swift; path = "../../node_modules/react-native-video-processing/ios/RNVideoProcessing/VideoProcessingGPUFilters.swift"; sourceTree = "<group>"; };
+		CDC4CE172664FD7D00B6E53C /* RNVideoProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNVideoProcessing.h; path = "../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoProcessing.h"; sourceTree = "<group>"; };
+		CDC4CE1D2664FD9D00B6E53C /* RNTrimmerViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNTrimmerViewManager.swift; path = "../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/RNTrimmerViewManager.swift"; sourceTree = "<group>"; };
+		CDC4CE1E2664FD9D00B6E53C /* RNTrimmerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNTrimmerView.h; path = "../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/RNTrimmerView.h"; sourceTree = "<group>"; };
+		CDC4CE1F2664FD9D00B6E53C /* RNTrimmerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNTrimmerView.swift; path = "../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/RNTrimmerView.swift"; sourceTree = "<group>"; };
+		CDC4CE202664FD9D00B6E53C /* RNTrimmerViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNTrimmerViewBridge.m; path = "../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/RNTrimmerViewBridge.m"; sourceTree = "<group>"; };
+		CDC4CE212664FD9D00B6E53C /* RNTrimmerView-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RNTrimmerView-Bridging-Header.h"; path = "../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/RNTrimmerView-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDC4CE262664FDB400B6E53C /* ICGVideoTrimmerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICGVideoTrimmerView.h; path = "../../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/ICGVideoTrimmer/ICGVideoTrimmerView.h"; sourceTree = "<group>"; };
+		CDC4CE272664FDB400B6E53C /* ICGRulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICGRulerView.h; path = "../../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/ICGVideoTrimmer/ICGRulerView.h"; sourceTree = "<group>"; };
+		CDC4CE282664FDB400B6E53C /* ICGThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICGThumbView.m; path = "../../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/ICGVideoTrimmer/ICGThumbView.m"; sourceTree = "<group>"; };
+		CDC4CE292664FDB400B6E53C /* ICGVideoTrimmerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICGVideoTrimmerView.m; path = "../../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/ICGVideoTrimmer/ICGVideoTrimmerView.m"; sourceTree = "<group>"; };
+		CDC4CE2A2664FDB400B6E53C /* ICGThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICGThumbView.h; path = "../../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/ICGVideoTrimmer/ICGThumbView.h"; sourceTree = "<group>"; };
+		CDC4CE2B2664FDB400B6E53C /* ICGVideoTrimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICGVideoTrimmer.h; path = "../../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/ICGVideoTrimmer/ICGVideoTrimmer.h"; sourceTree = "<group>"; };
+		CDC4CE2C2664FDB400B6E53C /* ICGRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICGRulerView.m; path = "../../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNTrimmerView/ICGVideoTrimmer/ICGRulerView.m"; sourceTree = "<group>"; };
+		CDC4CE312664FDCA00B6E53C /* RNVideoTrimmerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNVideoTrimmerBridge.m; path = "../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoTrimmer/RNVideoTrimmerBridge.m"; sourceTree = "<group>"; };
+		CDC4CE322664FDCA00B6E53C /* SDAVAssetExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDAVAssetExportSession.h; path = "../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoTrimmer/SDAVAssetExportSession.h"; sourceTree = "<group>"; };
+		CDC4CE332664FDCA00B6E53C /* RNVideoTrimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNVideoTrimmer.swift; path = "../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoTrimmer/RNVideoTrimmer.swift"; sourceTree = "<group>"; };
+		CDC4CE342664FDCA00B6E53C /* RNVideoTrimmer-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RNVideoTrimmer-Bridging-Header.h"; path = "../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoTrimmer/RNVideoTrimmer-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDC4CE352664FDCA00B6E53C /* AVUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AVUtilities.swift; path = "../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoTrimmer/AVUtilities.swift"; sourceTree = "<group>"; };
+		CDC4CE362664FDCA00B6E53C /* SDAVAssetExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDAVAssetExportSession.m; path = "../../../node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoTrimmer/SDAVAssetExportSession.m"; sourceTree = "<group>"; };
+		CDC4CE3B2664FDD400B6E53C /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../node_modules/react-native-video-processing/ios/GPUImage/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
+		D07C6C72376D4257AAD895FA /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		D3E14CF6F8694C91B062AEDC /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AmaticSC-Regular.ttf"; path = "../src/assets/fonts/AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
+		D85BBFA0526D489983DADE9A /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../src/assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		E45C4DE70D594C0AA90250C7 /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AmaticSC-Bold.ttf"; path = "../src/assets/fonts/AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDBF13D2E1F643AB9D72BC2B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		EEB5B417247C4BBF969E815F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		EFA87A044923E459658ADCBD /* Pods-aduhaz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aduhaz.debug.xcconfig"; path = "Target Support Files/Pods-aduhaz/Pods-aduhaz.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D2177DC4924A9D919235CD /* Bangers-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Bangers-Regular.ttf"; path = "../src/assets/fonts/Bangers-Regular.ttf"; sourceTree = "<group>"; };
+		F9B2AB93E38B454C95E5D867 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		F9F474F402A7424B97EF9BD9 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		FA6862965FA840328721A16D /* libRNVideoTrimmer.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVideoTrimmer.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC4CE482664FE0E00B6E53C /* GPUImage.framework in Frameworks */,
+				CD2E26BB2664E799004699EF /* OpenGLES.framework in Frameworks */,
+				CD2E26B72664E786004699EF /* CoreMedia.framework in Frameworks */,
+				CD2E26BF2664E7AA004699EF /* QuartzCore.framework in Frameworks */,
+				CD2E26BD2664E7A2004699EF /* AVFoundation.framework in Frameworks */,
+				F9CAB0504918E05F484E97ED /* libPods-aduhaz.a in Frameworks */,
+				CD2E26C12664E7B2004699EF /* MobileCoreServices.framework in Frameworks */,
+				CD2E26B92664E78F004699EF /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* aduhazTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* aduhazTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = aduhazTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* aduhaz */ = {
+			isa = PBXGroup;
+			children = (
+				B6A7264A2605C73E00B142CC /* GoogleService-Info.plist */,
+				B67D1F9E2605C2C400610248 /* aduhaz.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = aduhaz;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD2E26C02664E7B2004699EF /* MobileCoreServices.framework */,
+				CD2E26BE2664E7AA004699EF /* QuartzCore.framework */,
+				CD2E26BC2664E7A2004699EF /* AVFoundation.framework */,
+				CD2E26BA2664E799004699EF /* OpenGLES.framework */,
+				CD2E26B82664E78F004699EF /* CoreVideo.framework */,
+				CD2E26B62664E786004699EF /* CoreMedia.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				596C4120957A4789D1342701 /* libPods-aduhaz.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		820FC30DE6971EC7BFA50ADE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFA87A044923E459658ADCBD /* Pods-aduhaz.debug.xcconfig */,
+				A0DBCCC3125D55E9B82D8989 /* Pods-aduhaz.release.xcconfig */,
+				58AE50281C5F181920BA3114 /* Pods-aduhaz.staging.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				CDC4CE3B2664FDD400B6E53C /* GPUImage.xcodeproj */,
+				CDC4CE102664FD1800B6E53C /* RNVideoProcessing */,
+				B67D1FA22605C33A00610248 /* File.swift */,
+				B67D1FA12605C33A00610248 /* aduhaz-Bridging-Header.h */,
+				13B07FAE1A68108700A75B9A /* aduhaz */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* aduhazTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				820FC30DE6971EC7BFA50ADE /* Pods */,
+				8FE012BC71BC4A86B82C428C /* Resources */,
+				CD5A431A2664D87F00C67A3D /* Recovered References */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* aduhaz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FE012BC71BC4A86B82C428C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F9B2AB93E38B454C95E5D867 /* OpenSans-Bold.ttf */,
+				B68BF75D07B4442796ACBE1F /* OpenSans-BoldItalic.ttf */,
+				534119AF8DC94422BEBE9B64 /* OpenSans-ExtraBold.ttf */,
+				9C3422FB9AC04AE0849169E9 /* OpenSans-ExtraBoldItalic.ttf */,
+				9A9745A5F56246629B0594AD /* OpenSans-Italic.ttf */,
+				D85BBFA0526D489983DADE9A /* OpenSans-Light.ttf */,
+				1602487527364BA1BFD3BD6D /* OpenSans-LightItalic.ttf */,
+				D07C6C72376D4257AAD895FA /* OpenSans-Regular.ttf */,
+				BB7E70981522474C80FDAA6A /* OpenSans-SemiBold.ttf */,
+				B2933F783E26450D8F09B588 /* OpenSans-SemiBoldItalic.ttf */,
+				0C23003B4E36410CB45B4AC7 /* AntDesign.ttf */,
+				9238C585B0B74C248D657DB7 /* Entypo.ttf */,
+				B65BEF0CB2C04F78B688E35D /* EvilIcons.ttf */,
+				1D5D67CF4B6840D280F9C3D9 /* Feather.ttf */,
+				132F5BE2716542D8B6936CFF /* FontAwesome.ttf */,
+				EDBF13D2E1F643AB9D72BC2B /* FontAwesome5_Brands.ttf */,
+				A9C1E76A51264AD29ED5D0F1 /* FontAwesome5_Regular.ttf */,
+				480160701F094C3DBA7A0F07 /* FontAwesome5_Solid.ttf */,
+				A97209F72AEE45809B724566 /* Fontisto.ttf */,
+				87C842FCAA164126929B6D2E /* Foundation.ttf */,
+				732286B24CDE4D94B697C6A1 /* Ionicons.ttf */,
+				EEB5B417247C4BBF969E815F /* MaterialCommunityIcons.ttf */,
+				F9F474F402A7424B97EF9BD9 /* MaterialIcons.ttf */,
+				280C910DF4704C7DAE6F4B5F /* Octicons.ttf */,
+				819D7A292A274568B5DFF652 /* SimpleLineIcons.ttf */,
+				AFDA327F923D44EAB7182C46 /* Zocial.ttf */,
+				D3E14CF6F8694C91B062AEDC /* AmaticSC-Regular.ttf */,
+				A714FA9C7A774B29A28E5335 /* Arial.ttf */,
+				20F167A4B9F14D2E911CC612 /* CreamyChocolate.ttf */,
+				AA24F5A43A0C447CB68BD53A /* Heylie.ttf */,
+				9FB76BA6CE3E46B894FE36E6 /* LittleMiracles.ttf */,
+				98BC569245F54EF0A52AF4C0 /* Lobster-Regular.ttf */,
+				A198B1B521B14EE2B5B8D07B /* Playfair-Display-Italic.ttf */,
+				CAA96574763E4B138A49366D /* Rondal-Regular.otf */,
+				2BCB994B828C46C78C1D13FA /* TmesNewRoman.ttf */,
+				AAE463E052FF4184B667817C /* PlayfairDisplay-Italic.ttf */,
+				E45C4DE70D594C0AA90250C7 /* AmaticSC-Bold.ttf */,
+				359CAF44D2744EFEA4340155 /* ArimaMadurai-ExtraBold.ttf */,
+				F6D2177DC4924A9D919235CD /* Bangers-Regular.ttf */,
+				8C519F2C1DB04D038CC6DE95 /* Charm-Regular.ttf */,
+				7B8C510FB7D249A690F99005 /* DancingScript-Regular.ttf */,
+				B36942582D4848189690FC30 /* Mali-Regular.ttf */,
+				882E31C22DF94A5FA6A1D2F7 /* Pacifico-Regular.ttf */,
+				77C614183380493B9054988C /* Truculenta-Regular.ttf */,
+				1BE42264169541B9A217D466 /* YanoneKaffeesatz-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CD5A431A2664D87F00C67A3D /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				FA6862965FA840328721A16D /* libRNVideoTrimmer.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		CDC4CE102664FD1800B6E53C /* RNVideoProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				CDC4CE302664FDBF00B6E53C /* RNVideoTrimmer */,
+				CDC4CE1C2664FD8500B6E53C /* RNTrimmerView */,
+				CDC4CE132664FD7D00B6E53C /* RCTSwiftBridgeModule.h */,
+				CDC4CE122664FD7C00B6E53C /* RNVideoPlayer.swift */,
+				CDC4CE152664FD7D00B6E53C /* RNVideoProcessing-Bridging-Header.h */,
+				CDC4CE172664FD7D00B6E53C /* RNVideoProcessing.h */,
+				CDC4CE142664FD7D00B6E53C /* RNVideoProcessingBridge.m */,
+				CDC4CE112664FD7C00B6E53C /* RNVideoProcessingManager.swift */,
+				CDC4CE162664FD7D00B6E53C /* VideoProcessingGPUFilters.swift */,
+			);
+			path = RNVideoProcessing;
+			sourceTree = "<group>";
+		};
+		CDC4CE1C2664FD8500B6E53C /* RNTrimmerView */ = {
+			isa = PBXGroup;
+			children = (
+				CDC4CE252664FDA900B6E53C /* ICGVideoTrimmer */,
+				CDC4CE212664FD9D00B6E53C /* RNTrimmerView-Bridging-Header.h */,
+				CDC4CE1E2664FD9D00B6E53C /* RNTrimmerView.h */,
+				CDC4CE1F2664FD9D00B6E53C /* RNTrimmerView.swift */,
+				CDC4CE202664FD9D00B6E53C /* RNTrimmerViewBridge.m */,
+				CDC4CE1D2664FD9D00B6E53C /* RNTrimmerViewManager.swift */,
+			);
+			path = RNTrimmerView;
+			sourceTree = "<group>";
+		};
+		CDC4CE252664FDA900B6E53C /* ICGVideoTrimmer */ = {
+			isa = PBXGroup;
+			children = (
+				CDC4CE272664FDB400B6E53C /* ICGRulerView.h */,
+				CDC4CE2C2664FDB400B6E53C /* ICGRulerView.m */,
+				CDC4CE2A2664FDB400B6E53C /* ICGThumbView.h */,
+				CDC4CE282664FDB400B6E53C /* ICGThumbView.m */,
+				CDC4CE2B2664FDB400B6E53C /* ICGVideoTrimmer.h */,
+				CDC4CE262664FDB400B6E53C /* ICGVideoTrimmerView.h */,
+				CDC4CE292664FDB400B6E53C /* ICGVideoTrimmerView.m */,
+			);
+			path = ICGVideoTrimmer;
+			sourceTree = "<group>";
+		};
+		CDC4CE302664FDBF00B6E53C /* RNVideoTrimmer */ = {
+			isa = PBXGroup;
+			children = (
+				CDC4CE352664FDCA00B6E53C /* AVUtilities.swift */,
+				CDC4CE342664FDCA00B6E53C /* RNVideoTrimmer-Bridging-Header.h */,
+				CDC4CE332664FDCA00B6E53C /* RNVideoTrimmer.swift */,
+				CDC4CE312664FDCA00B6E53C /* RNVideoTrimmerBridge.m */,
+				CDC4CE322664FDCA00B6E53C /* SDAVAssetExportSession.h */,
+				CDC4CE362664FDCA00B6E53C /* SDAVAssetExportSession.m */,
+			);
+			path = RNVideoTrimmer;
+			sourceTree = "<group>";
+		};
+		CDC4CE3C2664FDD400B6E53C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC4CE422664FDD500B6E53C /* libGPUImage.a */,
+				CDC4CE442664FDD500B6E53C /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* aduhaz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "aduhaz" */;
+			buildPhases = (
+				C5B727075178B5D951150B8A /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				CD42484D66C1AAC9C0647B39 /* [CP] Copy Pods Resources */,
+				92E943ED4BDAC5848E7DE2EE /* [CP-User] [RNFB] Core Configuration */,
+				DD0DC9A8FCE625234180BCA5 /* [CP-User] [RNFB] Crashlytics Configuration */,
+				CD2E26C42664E7BC004699EF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aduhaz;
+			productName = aduhaz;
+			productReference = 13B07F961A680F5B00A75B9A /* aduhaz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "aduhaz" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CDC4CE3C2664FDD400B6E53C /* Products */;
+					ProjectRef = CDC4CE3B2664FDD400B6E53C /* GPUImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* aduhaz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CDC4CE422664FDD500B6E53C /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = CDC4CE412664FDD500B6E53C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CDC4CE442664FDD500B6E53C /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = CDC4CE432664FDD500B6E53C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A7264B2605C73F00B142CC /* GoogleService-Info.plist in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9EFE757977034F909DE63AB2 /* OpenSans-Bold.ttf in Resources */,
+				B6645EEF1FB4426B9610CA2B /* OpenSans-BoldItalic.ttf in Resources */,
+				71367E46D45040098878DCA6 /* OpenSans-ExtraBold.ttf in Resources */,
+				FA814E4D113E44DA83D630B1 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				2764D136BC8A44B38AFB6538 /* OpenSans-Italic.ttf in Resources */,
+				D9A15B45BB664CC399236ED0 /* OpenSans-Light.ttf in Resources */,
+				D5B7F51F72AF482BB72BF684 /* OpenSans-LightItalic.ttf in Resources */,
+				D38EAE70A374444DA8A1D46F /* OpenSans-Regular.ttf in Resources */,
+				0992304CE5C94C5C901F35A5 /* OpenSans-SemiBold.ttf in Resources */,
+				3EE314E7A1994E7BB72263F5 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				FE2FA2F7913A4065B0CC8E03 /* AmaticSC-Regular.ttf in Resources */,
+				5986DDC749194C22A1B333BC /* Arial.ttf in Resources */,
+				34FD6D51AD03440EB1191EFA /* CreamyChocolate.ttf in Resources */,
+				9C49CAB67B8340059BB856B4 /* Heylie.ttf in Resources */,
+				3D69736CF291414EAEFEA2F8 /* LittleMiracles.ttf in Resources */,
+				9A0C4C2BB5DC4AA19AD280FB /* Lobster-Regular.ttf in Resources */,
+				6296BBC3C0CA4FA0B3A3623E /* Rondal-Regular.otf in Resources */,
+				C96CB03B76AD4B019F54F921 /* TmesNewRoman.ttf in Resources */,
+				D81E76E737C54DE59A6D0B11 /* PlayfairDisplay-Italic.ttf in Resources */,
+				2EA7A96DCE6B4C269C21F01F /* AmaticSC-Bold.ttf in Resources */,
+				621AF176EFDE4069B61F6C05 /* ArimaMadurai-ExtraBold.ttf in Resources */,
+				2CD7EC2EDB2C4C7497306AAD /* Bangers-Regular.ttf in Resources */,
+				D26866BE6B1947699A68E856 /* Charm-Regular.ttf in Resources */,
+				2E267061E0DF465BB2992425 /* DancingScript-Regular.ttf in Resources */,
+				3EB72BB66D02453F87F92E03 /* Mali-Regular.ttf in Resources */,
+				D936AC397AED4503BC35292E /* Pacifico-Regular.ttf in Resources */,
+				092C10CCF7884ACA92653271 /* Truculenta-Regular.ttf in Resources */,
+				6D228059160A459E83D50B24 /* YanoneKaffeesatz-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		92E943ED4BDAC5848E7DE2EE /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		C5B727075178B5D951150B8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aduhaz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD42484D66C1AAC9C0647B39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aduhaz/Pods-aduhaz-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aduhaz/Pods-aduhaz-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aduhaz/Pods-aduhaz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD0DC9A8FCE625234180BCA5 /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC4CE1B2664FD7D00B6E53C /* VideoProcessingGPUFilters.swift in Sources */,
+				CDC4CE182664FD7D00B6E53C /* RNVideoProcessingManager.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				CDC4CE2F2664FDB400B6E53C /* ICGRulerView.m in Sources */,
+				CDC4CE222664FD9D00B6E53C /* RNTrimmerViewManager.swift in Sources */,
+				CDC4CE3A2664FDCA00B6E53C /* SDAVAssetExportSession.m in Sources */,
+				CDC4CE232664FD9D00B6E53C /* RNTrimmerView.swift in Sources */,
+				CDC4CE2E2664FDB400B6E53C /* ICGVideoTrimmerView.m in Sources */,
+				CDC4CE2D2664FDB400B6E53C /* ICGThumbView.m in Sources */,
+				CDC4CE192664FD7D00B6E53C /* RNVideoPlayer.swift in Sources */,
+				CDC4CE242664FD9D00B6E53C /* RNTrimmerViewBridge.m in Sources */,
+				CDC4CE1A2664FD7D00B6E53C /* RNVideoProcessingBridge.m in Sources */,
+				CDC4CE382664FDCA00B6E53C /* RNVideoTrimmer.swift in Sources */,
+				CDC4CE372664FDCA00B6E53C /* RNVideoTrimmerBridge.m in Sources */,
+				B67D1FA32605C33A00610248 /* File.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				CDC4CE392664FDCA00B6E53C /* AVUtilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA87A044923E459658ADCBD /* Pods-aduhaz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = aduhaz/aduhaz.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 5D2L4A466U;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-video-trimmer/ios",
+				);
+				INFOPLIST_FILE = aduhaz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/aduhaz\"",
+				);
+				MARKETING_VERSION = 1.0.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.aduhaz.app;
+				PRODUCT_NAME = aduhaz;
+				PROVISIONING_PROFILE_SPECIFIER = "Aduhaz Dev";
+				SWIFT_OBJC_BRIDGING_HEADER = "aduhaz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0DBCCC3125D55E9B82D8989 /* Pods-aduhaz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = aduhaz/aduhaz.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 5D2L4A466U;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-video-trimmer/ios",
+				);
+				INFOPLIST_FILE = aduhaz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/aduhaz\"",
+				);
+				MARKETING_VERSION = 1.0.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.aduhaz.app;
+				PRODUCT_NAME = aduhaz;
+				PROVISIONING_PROFILE_SPECIFIER = "Aduhaz Dev";
+				SWIFT_OBJC_BRIDGING_HEADER = "aduhaz-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		34611B3F26A096DD00DEB840 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = CMmQpzLKkC8OTsLzPNRgwtJYnH7s3DQa6kV3H;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.3/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MULTI_DEPLOYMENT_CONFIG = "$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Staging;
+		};
+		34611B4026A096DD00DEB840 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58AE50281C5F181920BA3114 /* Pods-aduhaz.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = aduhaz/aduhaz.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 5D2L4A466U;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-video-trimmer/ios",
+				);
+				INFOPLIST_FILE = aduhaz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/aduhaz\"",
+				);
+				MARKETING_VERSION = 1.0.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.aduhaz.app;
+				PRODUCT_NAME = aduhaz;
+				PROVISIONING_PROFILE_SPECIFIER = "Aduhaz Dev";
+				SWIFT_OBJC_BRIDGING_HEADER = "aduhaz-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Staging;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.3/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				MULTI_DEPLOYMENT_CONFIG = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODEPUSH_KEY = "TBhXPI_Iqkyod4-3cNygrwrdB92NFj-B5jT3U";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.3/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MULTI_DEPLOYMENT_CONFIG = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "aduhaz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+				34611B4026A096DD00DEB840 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "aduhaz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+				34611B3F26A096DD00DEB840 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoTrimmer/RNVideoTrimmer.swift b/node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoTrimmer/RNVideoTrimmer.swift
+index 757dfb6..7d31af4 100644
+--- a/node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoTrimmer/RNVideoTrimmer.swift
++++ b/node_modules/react-native-video-processing/ios/RNVideoProcessing/RNVideoTrimmer/RNVideoTrimmer.swift
+@@ -269,7 +269,7 @@ class RNVideoTrimmer: NSObject {
+ 
+         print("RNVideoTrimmer passed quality: \(quality). useQuality: \(useQuality)")
+ 
+-        guard let exportSession = AVAssetExportSession(asset: finalComposition, presetName: useQuality)
++        guard let exportSession = AVAssetExportSession(asset: asset, presetName: useQuality)
+             else {
+                 callback(["Error creating AVAssetExportSession", NSNull()])
+                 return
